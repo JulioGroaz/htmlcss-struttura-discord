@@ -12,7 +12,6 @@ header{
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 36em;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
@@ -45,8 +44,8 @@ li{
     display: flex;
     flex-direction: column; 
     align-items: center;
-    margin-top: 10em;
-    width: 50%;
+    padding: 10em;
+    width: 70%;
 }
 
 .img-left{
@@ -55,19 +54,19 @@ li{
 }
 .IMG{
     display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    width: 65%;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
     flex-direction: column;
-    margin: 5.3% 0%;
+    padding: 5%;
 }
 .txt{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: start;
-    width: 35%;
-    margin: 8% 6% 8% 3%;
+    align-items: center;
+    justify-content: flex-start;
+    width: 40%;
+    padding: 8% 5%;
 }
 .img-right{
     display: flex;
@@ -75,19 +74,19 @@ li{
 }
 .IMG-2{
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    width: 65%;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
     flex-direction: column;
-    margin: 5.3% 0%;
+    padding: 5%;
 }
 .txt-2{
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    justify-content: start;
-    width: 35%;
-    margin: 8% 3% 8% 6%;
+    align-items: center;
+    justify-content: flex-start;
+    width: 40%;
+    padding: 8% 5%;
 }
 
 footer{
